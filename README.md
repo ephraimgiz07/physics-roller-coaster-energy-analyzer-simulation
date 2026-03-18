@@ -15,7 +15,7 @@ The project is divided into three main parts:
 3. Run the simulation.
 4. observe the motion and calculated values of the cart.
 
-5. ## Group Members:
+## Group Members:
 1. Dawit Michael Solomon
 2. Efrem Gizaw Megersa
 3. Eyosias Meshesha Aychew
