@@ -3,17 +3,30 @@
 This project is a physics-based simulation and numerical analysis of a roller coaster cart moving along a mathematically defined curved track.  
 The goal is to calculate the cart's kinetic energy, potential energy, and work done by friction, while simulating its motion and energy loss throughout the ride.
 
-The project is divided into three main parts:
+## Project Resources
+- Simulation done in Glowscript: 
+    - Euler Method Simulation: [Launch Web VPython](https://www.glowscript.org/##/user/efa2/folder/MyPrograms/program/finalsimulation)
+    - Energy-Constrained Simulation: [Launch Web VPython](https://www.glowscript.org/#/user/efa2/folder/MyPrograms/program/finalsimulationenergy)
+- Beamer Presentation: [View Slides](https://www.overleaf.com/8664716972fcntnpkydpcd#e526dc)
 
+### Simulation Comparison
+
+| Simulation | Physics Logic | Best For | Link |
+| :--- | :--- | :--- | :--- |
+| **Euler Method** | $F = ma$ (Force Vectors) | Visualizing acceleration and net forces. | [View App](https://www.glowscript.org/##/user/efa2/folder/MyPrograms/program/finalsimulation) |
+| **Energy-Constrained Method** | $TE = KE + PE$ | Proving the Law of Conservation of Energy and best for ideal case ($\mu=0$). | [View App](https://www.glowscript.org/#/user/efa2/folder/MyPrograms/program/finalsimulationenergy) |
+
+## Project Structure
+The project is divided into three main parts:
 1. **Simulation** – Python code that models the cart's motion along the track.
-2. **Project Essay**– Detailed explanation of calculations, formulas, and the physics concepts involved.
+2. **Project Essay** – Detailed explanation of calculations, formulas, and the physics concepts involved.
 3. **Beamer Presentation** – A visual presentation summarizing the project and results.
 
 ## How to Run the Simulation
 1. Make sure you have Python 3 installed.
 2. Install required libraries (if not already installed), like  vpython, numpy, matplotlib, jupyter notebook
 3. Run the simulation.
-4. observe the motion and calculated values of the cart.
+4. Observe the motion and calculated values of the cart.
 
 ## Group Members:
 1. Dawit Michael Solomon
